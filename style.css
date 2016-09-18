@@ -8,3 +8,7 @@ p {
   font-family: cursive;
   font-size: 16;
 }
+
+#calendar {
+  background-color: green;
+}
