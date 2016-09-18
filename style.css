@@ -3,7 +3,7 @@
 }
 
 #calendar {
-  background-color: green;
+  background-color: #d3d3d3;
   min-width: 550px;
 }
 
@@ -19,14 +19,30 @@
   border:2px solid black;
 }
 
+#sunday {
+  background-color: purple;
+}
+
 #monday {
   background-color: blue;
 }
 
-#saturday {
-  background-color: pink;
+#tuesday {
+  background-color: green;
 }
 
-#sunday {
-  background-color: purple;
+#wednesday {
+  background-color: red;
+}
+
+#thursday {
+  background-color: orange;
+}
+
+#friday {
+  background-color: yellow;
+}
+
+#saturday {
+  background-color: pink;
 }
