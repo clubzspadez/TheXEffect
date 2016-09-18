@@ -6,7 +6,7 @@ h1{
 p {
   color: blue;
   font-family: cursive;
-  font-size: 16;
+  font-size: 25px;
 }
 
 #calendar {
@@ -15,4 +15,14 @@ p {
 
 #monday {
   background-color: blue;
+}
+
+#saturday {
+  background-color: pink;
+}
+
+#Sunday {
+  background-color: purple;
+  font-family: arial;
+  font-size: 20px;
 }
