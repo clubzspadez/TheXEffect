@@ -1,12 +1,5 @@
-h1{
-  color:red;
-  font-family: fantasy;
-}
-
-p {
-  color: blue;
-  font-family: cursive;
-  font-size: 25px;
+* {
+    box-sizing: border-box;
 }
 
 #calendar {
@@ -25,7 +18,7 @@ p {
   background-color: pink;
 }
 
-#Sunday {
+#sunday {
   background-color: purple;
   font-family: arial;
   font-size: 20px;
