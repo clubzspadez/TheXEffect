@@ -13,6 +13,10 @@ p {
   background-color: green;
 }
 
+.dayOfTheWeek {
+  display: inline-block;
+}
+
 #monday {
   background-color: blue;
 }
