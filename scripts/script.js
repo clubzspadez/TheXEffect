@@ -1,4 +1,5 @@
-var javascript = lol;
+
+//this is all for the quote generator 
 var qButton = document.querySelector("#quoteButton");
 var qText = document.querySelector("#quote");
 
