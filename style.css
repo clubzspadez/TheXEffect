@@ -1,20 +1,26 @@
 .menuBar {
-  width:100%;
   background-color: brown;
+  min-width: 600px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .menuButton {
   background-color: brown;
+  display: inline-block;
 }
 
 #calendar {
   background-color: #d3d3d3;
-  min-width: 550px;
+  min-width: 600px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .dayOfTheWeek {
   display: inline-block;
-  min-width:13%;
+  min-width:13.5%;
+  text-align: center;
 }
 
 .dayOfTheMonth {
