@@ -1,60 +1,11 @@
-.menuBar {
-  background-color: brown;
-  min-width: 600px;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-.menuButton {
-  background-color: brown;
+#menuBar {
   display: inline-block;
+  background-color: brown;
+  min-width: 100px;
 }
 
 #calendar {
-  background-color: #d3d3d3;
-  min-width: 600px;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-.dayOfTheWeek {
   display: inline-block;
-  min-width:13.5%;
-  text-align: center;
-}
-
-.dayOfTheMonth {
-  width:100%;
-  height:50px;
-  background-color: grey;
-  border:2px solid black;
-  margin-bottom: 2px;
-}
-
-#sunday {
-  background-color: purple;
-}
-
-#monday {
-  background-color: blue;
-}
-
-#tuesday {
-  background-color: green;
-}
-
-#wednesday {
-  background-color: red;
-}
-
-#thursday {
-  background-color: orange;
-}
-
-#friday {
-  background-color: yellow;
-}
-
-#saturday {
-  background-color: pink;
+  background-color: #d3d3d3;
+  min-width: 400px;
 }
