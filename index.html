@@ -1,27 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
+
+<head>
+    <meta charset="utf-8" name="google-signin-client_id" content="526631377931-o3978k2aniqpfvgm6iqo6lmtjd0jseuu.apps.googleusercontent.com">
+
     <link rel="stylesheet" type="text/css" href="styleBlank.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>The X Effect</title>
-  </head>
-  <body>
-    <div>
-      <div id="menuBar">
-        <h3>this will be the side bar</h3>
-      </div>
+</head>
 
-      <div id="calendar">
-        <p>
-          calendar goes here
-        </p>
-      </div>
+<body>
+    <div>
+        <div id="menuBar">
+            <h3>this will be the side bar</h3>
+        </div>
+
+        <div id="calendar">
+            <p>
+                calendar goes here
+            </p>
+        </div>
     </div>
 
 
     <button id="quoteButton">click for a new quote</button>
     <p id="quote">nothing here yet</p>
+
+
+    <!--google signin-->
+
+    <div id="my-signin2"></div>
+    <!--<button id="googleSignInButton">Sign In To Google</button>-->
+
+    <script>
+        function onSuccess(googleUser) {
+            console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+        }
+
+        function onFailure(error) {
+            console.log(error);
+        }
+
+        function renderButton() {
+            gapi.signin2.render('my-signin2', {
+                'scope': 'profile email',
+                'width': 240,
+                'height': 50,
+                'longtitle': true,
+                'theme': 'dark',
+                'onsuccess': onSuccess,
+                'onfailure': onFailure
+            });
+        }
+    </script>
+
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+
+
     <script type="text/javascript" src="scripts/quote.js"></script>
-  </body>
+</body>
+
 </html>
