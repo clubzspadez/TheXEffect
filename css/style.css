@@ -1,0 +1,114 @@
+/* Initial body */
+body {
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    background:#CFE1ED;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Initial menu */
+.menu {
+  background: #126287 url(http://pre02.deviantart.net/a1a1/th/pre/f/2015/289/f/9/f9c0cdc5f630a022aa9e1edf5098b1a0-d9dbs3p.png) no-repeat right top; /*use a url for an image in the background */
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+
+/* Basic styling */
+
+.jumbotron {
+  background-image: url('http://pre08.deviantart.net/2da1/th/pre/i/2015/289/5/a/wallpaperblank_by_clubzspadez-d9dbixj.png'); 
+  height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+/*Profile Pic*/
+.profilePic{
+    text-align: center;
+}
+
+.profilePic img{
+    text-align: center;
+    width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    
+}
+
+
+
+
+
+
+
+/* Footer */
+
+
+    
+.footBot {
+    text-align: center;
+    background-color: aliceblue;
+    background-image: url('http://pre08.deviantart.net/2da1/th/pre/i/2015/289/5/a/wallpaperblank_by_clubzspadez-d9dbixj.png') right bottom;
+	width:100%;
+	height:75px;
+	position:absolute;
+	bottom:-500px;
+	left:0;
+}
