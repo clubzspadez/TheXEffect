@@ -64,7 +64,7 @@ function show() {
 
     var html = '<ul>';
     for(var i=0; i<todos.length; i++) {
-        html += '<li>' + todos[i] + '<button class="remove" id="' + i  + '">x</button></li>';
+        html += '<li>' + '<img class="remove" id="' + i + '" src="X.png" alt="X close" height="10px" width="10px">' + todos[i] + '</li>';
     };
     html += '</ul>';
 
@@ -76,4 +76,5 @@ function show() {
     };
 }
 document.getElementById('add').addEventListener('click', add);
+
 show();

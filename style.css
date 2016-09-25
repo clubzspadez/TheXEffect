@@ -1,4 +1,5 @@
 
+/*-  styling for input and lists ---- needs some work*/
 input {
   text-align: center;
   float: right;
@@ -23,6 +24,15 @@ input {
   padding-top: 3px;
 }
 
+.remove {
+  cursor: pointer;
+  width:13px;
+  height: 13px;
+  margin-right: 20px;
+}
+ #todos li {
+  text-align: center;
+}
 .menu #todos{
   border-top: 1px solid #636366;
   list-style: none;
