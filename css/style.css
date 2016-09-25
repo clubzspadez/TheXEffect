@@ -21,7 +21,7 @@ body {
 /* Basic styling */
 
 .jumbotron {
-  background-image: url('http://pre08.deviantart.net/2da1/th/pre/i/2015/289/5/a/wallpaperblank_by_clubzspadez-d9dbixj.png'); 
+  background-image: url('http://pre08.deviantart.net/2da1/th/pre/i/2015/289/5/a/wallpaperblank_by_clubzspadez-d9dbixj.png');
   height: 100%;
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -89,7 +89,7 @@ body {
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    
+
 }
 
 
@@ -101,7 +101,7 @@ body {
 /* Footer */
 
 
-    
+
 .footBot {
     text-align: center;
     background-color: aliceblue;
