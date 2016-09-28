@@ -20,7 +20,6 @@ input {
   display: block;
 }
 .menu #todos{
-  border-bottom: 1px solid #636366;
   font-family: 'Open Sans', sans-serif;
   line-height: 45px;
   padding-bottom: 3px;
@@ -41,7 +40,7 @@ input {
   position: absolute;
   top: 107px;
   width: 100%;
-  border-top: 1px solid #636366;
+
   list-style: none;
   margin: 0;
   padding: 0;
